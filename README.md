@@ -1,5 +1,7 @@
 # Graph data model da plataforma de filmes e séries
 
+Modelagem de uma plataforma para acompanhar e analisar filme e séries assistidos por usuários com o intuito de gerar insights sobre consumo, estilo de conteúdo apreciado, relevância de conteúdo entre outras possibilidades. Através da arquitetura de dados com grafos utilizando-se do Neo4J como principal tecnologia as questões levantadas serão elucidadas por meio de modelos graficos.
+
 # Modelagem da plataforma de filmes e séries
 
 ### Nós
@@ -29,6 +31,8 @@ Relaciona os diretores aos filmes e seriados que produziram.
 Agrupa cada seriado ou filme a um tipo de conteudo.
 
 ## Modelagem do diagrama de dados
+![Model Graph Plataform](datagraph_plataforma.png)
+	
 
 ## Exemplos de Cypher querys
 
@@ -53,3 +57,4 @@ RETURN u, ua, f, d, dd, fp, g, a, aa;
 
 
 ## Examplo grafo de conhecimento do Marcos
+![Grafo conhecimento](grafo_conhecimento.png)
